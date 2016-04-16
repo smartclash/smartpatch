@@ -23,4 +23,5 @@ To edit the informations, just edit the `config.php` from
 ##Developers
 
 @smartclash   -   Karansanjeev
+
 @jake-cryptic -   Jake Mcneill
