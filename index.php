@@ -76,7 +76,7 @@
 					include("assets/php/views/loggedIn.php");
 				}
 			} else {
-				include("assets/php/views/main.php");
+				include("assets/php/views/default.php");
 			}
 		?>
 
