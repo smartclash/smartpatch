@@ -1,10 +1,10 @@
 <?php
 /* Default Database File */
 
-DEFINE("db_host","31.220.17.165");
-DEFINE("db_user","smartcla_karan");
-DEFINE("db_pass","AmarAmar@1");
-DEFINE("db_dbse","smartcla_patchyraedialab");
+DEFINE("db_host","localhost");
+DEFINE("db_user","root");
+DEFINE("db_pass","");
+DEFINE("db_dbse","patchy");
 
 $conn = @new mysqli(db_host,db_user,db_pass,db_dbse);
 
