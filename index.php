@@ -1,15 +1,16 @@
-<!--Smart Patch is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    Smart Patch is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with Smart Patch.  If not, see <http://www.gnu.org/licenses/>.-->
+<!--    * Smart Patch is free software: you can redistribute it and/or modify
+	    * it under the terms of the GNU General Public License as published by
+	    * the Free Software Foundation, either version 3 of the License, or
+	    * any later/older version.
+	    *
+	    * Smart Patch is distributed in the hope that it will be useful,
+	    * but WITHOUT ANY WARRANTY; without even the implied warranty of
+	    * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	    * GNU General Public License for more details.
+	    *
+	    * You should have received a copy of the GNU General Public License
+	    * along with Smart Patch.  If not, see <http://www.gnu.org/licenses/>.
+-->
 
 <?php require("assets/init.php");  ?>
 <!DOCTYPE HTML>
@@ -63,12 +64,8 @@
 						include("assets/php/views/servers.php");
 					} elseif($_GET["p"] == "upl") {
 						include("assets/php/views/upload.php");
-					} elseif($_GET["p"] == "hlp") {
-						include("assets/php/views/help.php");
 					} elseif($_GET["p"] == "lgo") {
 						 include("assets/php/scripts/logout.php");
-					} elseif($_GET["p"] == "nfo") {
-						include("assets/php/views/patchy.php");
 					} else {
 						include("assets/php/views/loggedIn.php");
 					}
