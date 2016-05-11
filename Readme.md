@@ -23,5 +23,3 @@ To edit the informations, just edit the `config.php` from
 ##Developers
 
 @smartclash   -   Karansanjeev - https://github.com/smartclash/smartpatch/
-
-@jake-cryptic -   Jake Mcneill - https://github.com/jake-cryptic/patchy2/
