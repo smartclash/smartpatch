@@ -5,7 +5,7 @@ if(!document.__defineGetter__) {
         set: function(){return true},
     });
 } else {
-    document.__defineGetter__("cookie", function() { return 'Patchy 2.1 Security prevents cookie use'; } );
-    document.__defineSetter__("cookie", function() { return 'Patchy 2.1 Security prevents cookie use'; } );
+    document.__defineGetter__("cookie", function() { return 'Patchy Security prevents cookie use'; } );
+    document.__defineSetter__("cookie", function() { return 'Patchy Security prevents cookie use'; } );
 }
 console.log("{Info}: Vulnerable function removed :)");

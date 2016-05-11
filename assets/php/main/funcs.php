@@ -58,18 +58,18 @@ function readPatchFolder($dir) {
 	$patches = count($scan)-2; // Remove . and  ..
 	
 	if ($patches != $_SESSION["usedPatchInt"]) {
-		$patchReturn = "<p style=\"font-size:1.2em;\">Database and Patch Server are out of sync, <a class='white-link' href='assets/php/scripts/recount.php' title='Re-Sync Patch Count'>click to fix</a></p><br />";
+		$patchReturn = "<div class=\"callout callout-danger\"><h3>Database and Patch Server are out of sync, <a class='white-link' href='assets/php/scripts/recount.php' title='Re-Sync Patch Count'>click to fix</h3></div><br />";
 	} else {
 		$patchReturn = "";
 	}
 	
 	if ($patches > 0) {
 		$patchReturn .= '
-		<table id="patchTable" class="table">
+		<table class="table table-bordered">
 			<thead>
 				<tr>
-					<th id="patchNameHeader">Patch Name</th>
-					<th id="optionsHeader">Options</th>
+					<th>Patch Name</th>
+					<th>Options</th>
 				</tr>
 			</thead>
 			<tbody>';
@@ -80,7 +80,7 @@ function readPatchFolder($dir) {
 		}
 		$patchReturn .= '
 			</tbody>
-		</table><br /><br /><span id="patchesFound">Patch Amount: ' . $patches . '</span>';
+		</table><br /><br /><div class="callout callout-success"><h3>Patch Amount: ' . $patches . '</h3></div>';
 		return $patchReturn;
 	} else {
 		return False;
@@ -91,28 +91,14 @@ function checkPatchyVersion() {
 	// Check for updates..
 	require "version.php";
 	
-	$url = file_get_contents("http://patchy-a.co.nf/api.php?action=updateCheck");
-	$data = @json_decode($url);
-	if ($versionType == "alpha") {
-		if ($data->versions->alpha == $version) {
-			return True;
-		} else {
-			return False;
-		}
-	} elseif ($versionType == "beta") {
-		if ($data->versions->beta == $version) {
-			return True;
-		} else {
-			return False;
-		}
-	} else {
-		if ($data->versions->stable == $version) {
-			return True;
-		} else {
-			return False;
-		}
+	$versionurl = file_get_contents("https://static.smartclashcoc.com/smartpatch/update.txt");
+	if($versionurl > $version) {
+		echo "<div class=\"callout callout-warning\"><h3>Patchy UPDATE!!!</h3><p>Patchy update available ($versionurl) Download it from <a href=\"$githubLink\ target=\"_blank\">Here</a>";
 	}
-}
+	else {
+		echo "";
+	}
+	
 
 function checkPatchAmount() {
 	if ($_SESSION["usedPatchInt"] < $_SESSION["allowedPatchInt"]) {

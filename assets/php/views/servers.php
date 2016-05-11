@@ -1,52 +1,60 @@
-<?php include("head.php"); ?>
-<div class="content-wrapper">
-	<section class="content-header">
-		<h1>Patch Control Panel</h1>
-	</section>
-		
+<?php include('head.php'); ?>
+<!-- Content Wrapper. Contains page content -->
+	<div class="content-wrapper">
+		<!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h1 align="center"><?php echo $site["info"]["name"]; ?></h1>
+        </section>
+		<section class="content">
+			<div class="box box-default">
+            	<div class="box-header with-border">
+              		<i class="fa fa-headphones"></i>
+			  		<h3 class="box-title">Patch control</h3>
+            	</div>
+            	<div class="box-body">
 		<?php
+			$serverCheck = createServer($_SESSION["username"]);
+			if ($serverCheck == 0) {
+				if (readPatchFolder("patch/".$_SESSION["username"]."/") == False) {
+					echo '<br /><br /><div class="callout callout-danger"><h3>No patches found</h3></div>';
+				} else {
+					echo readPatchFolder("patch/".$_SESSION["username"]."/");
+				}
+			} elseif ($serverCheck == 1) {
+				echo '<br /><br /><div class="callout callout-success"><h3>Patch server now ready for use!</h3></div>';
+			} else {
+				echo '<br /><br /><div class="callout callout-danger"><h3>Couldn\'t create your server, contact support</h3></div>';
+			}
 			if (!empty($_GET["msg"])) {
 				if (is_numeric($_GET["msg"])) {
 					$msg = trim($_GET["msg"]);
 					switch ($msg){
 						case 1:
-							echo "<p class=\"lead\">Patch deletion successful";
+							echo "<div class=\"callout callout-success\"><h3>Patch deletion successful";
 							break;
 						case 2:
-							echo "<p class=\"lead\">Patch couldn't be deleted";
+							echo "<div class=\"callout callout-danger\"><h3>Patch couldn't be deleted";
 							break;
 						case 3:
-							echo "<p class=\"lead\">You can't delete what isn't there";
+							echo "<div class=\"callout callout-warning\"><h3>You can't delete what isn't there";
 							break;
 						case 4:
-							echo "<p class=\"lead\">Please <a href='assets/php/scripts/update.php'>reload your account</a> and try again, if that doesn't work contact support";
+							echo "<div class=\"callout callout-danger\"><h3>Please <a href='assets/php/scripts/update.php'>reload your account</a> and try again, if that doesn't work contact support";
 							break;
 						case 5:
-							echo "<p class=\"lead\">Nothing valid was sent";
+							echo "<div class=\"callout callout-danger\"><h3>Nothing valid was sent";
 							break;
 						default:
-							echo "<p class=\"lead\">Something happened";
+							echo "<div class=\"callout callout-danger\"><h3>Something happened";
 							break;
 					}
-					echo "</p><br /><br />";
+					echo "</h3></div><br><br><br>";
 				}
 			}
-			
-			$serverCheck = createServer($_SESSION["username"]);
-			if ($serverCheck == 0) {
-				if (readPatchFolder("patch/".$_SESSION["username"]."/") == False) {
-					echo '<br /><br /><p class="lead">No patches found</span>';
-				} else {
-					echo readPatchFolder("patch/".$_SESSION["username"]."/");
-				}
-			} elseif ($serverCheck == 1) {
-				echo '<br /><br /><p class="lead">Patch server now ready for use!</span>';
-			} else {
-				echo '<br /><br /><p class="lead">Couldn\'t create your server, contact support</span>';
-			}
+			echo '<br><br><button class="btn btn-block btn-success" onclick="window.location.href=\'?p=upl\';">Upload a Patch</button>';
 		?>
-	<br>
-	<br>
-	<button class="button" onclick="window.location.href='?p=upl';">Upload a Patch</button>
+		</div>
+	</div>
+</section>
 </div>
-<?php include("foot.php"); ?>
+<?php include('foot.php'); ?>

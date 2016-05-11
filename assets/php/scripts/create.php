@@ -77,6 +77,7 @@ if (accountLoggedIn()) {
 		if (count($err) == 0) {
 			// Create the salts and hash the password
 			$uniqueSalt = createUniqueSalt();
+			usleep(500000); // .5 seconds
 			$otherUniqueSalt = createUniqueSalt();
 			$hashedPass = hashPassword($pw,$uniqueSalt,$otherUniqueSalt);
 			

@@ -1,18 +1,16 @@
 <?php
+/* Default Database File */
 
-// May make this a class in the future
-
-DEFINE("db_host","127.0.0.1");
-DEFINE("db_user","root");
-DEFINE("db_pass","");
-DEFINE("db_dbse","patchy");
+DEFINE("db_host","31.220.17.165");
+DEFINE("db_user","smartcla_karan");
+DEFINE("db_pass","AmarAmar@1");
+DEFINE("db_dbse","smartcla_patchyraedialab");
 
 $conn = @new mysqli(db_host,db_user,db_pass,db_dbse);
-//GLOBAL $conn;
 
 if ($conn->connect_error) {
 	unset($conn);
-	die("<div class="callout callout-danger"><h1>Server not reachable, Check your config</h1></div>");
+	die("<h1 style=\"font-family:sans-serif\">Database server is unreachable</h1>");
 } else {
 	$conn->set_charset("utf8");
 }

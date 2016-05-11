@@ -27,9 +27,9 @@ $(document).ready(function() {
 			},
 			success: function(data) {
 				toggleVerifyMessage();
+				$("#verifyButton").prop('value', 'Login');
 				notifications.addClass("hasNotification");
 				notifications.html(data).fadeIn(1000);
-				$("#verifyButton").prop('value', 'Login');
 			},
 			error: function(e) {
 				console.log(e); // Log any errors

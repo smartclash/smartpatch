@@ -7,11 +7,17 @@
 	top:0;
 }
 .mainTitle {
+	margin:0;
+	display:inline;
 	font-size:2.7em;
+	font-weight:100;
 }
 .mainShortDesc {
+	margin:0;
+	display:inline;
 	color:#585858;
 	font-size:0.9em;
+	font-weight:100;
 }
 /*
  * 

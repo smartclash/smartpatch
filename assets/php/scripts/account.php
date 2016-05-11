@@ -1,16 +1,12 @@
 <?php
 require '../../init.php';
 require '../main/db.php';
+// Currently only passwords can be done...
 
 // Check if the user is logged in
 if (!accountLoggedIn()) {
 	die("Error: You aren't logged in");
 } else {
-	if (isset($_SESSION["isVerifiedAdmin"])) {
-		die("Error: Please re-login to your account");
-	} else {
-		
-	}
 	// Ok, lets get started
 	if (empty($_POST)) {
 		// If nothing was sent return an error
@@ -19,7 +15,7 @@ if (!accountLoggedIn()) {
 		// Make the errors array
 		$err = array();
 		
-		// Time to clean the data so SQL injection isn't possible
+		// Time to clean the data so SQL injection isnt possible
 		$id = htmlspecialchars($_SESSION["username"]);
 		$pw = htmlspecialchars($_POST["verifyPassword"]);
 		
@@ -58,10 +54,7 @@ if (!accountLoggedIn()) {
 			$conn->close();
 			die();
 		} else {
-			foreach ($err as $error) {
-				echo '<span class="formError">' . $error . '</span><br />';
-			}
-			die();
+			
 		}
 	}
 }

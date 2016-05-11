@@ -1,17 +1,24 @@
-<?php include("head.php"); ?>
-<div class="content-wrapper">
-	<section class="content-header">
-		<h1><?php echo $site["info"]["name"]; ?> <small>A best in class Patching server for COC emulator</small></h1>
-	</section>
-	
-	<section class="content">
+<?php include('head.php'); ?>
+<!-- Content Wrapper. Contains page content -->
+	<div class="content-wrapper">
+		<!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h1 align="center"><?php echo $site["info"]["name"]; ?></h1>
+        </section>
+		<section class="content">
+			<div class="box box-default">
+            	<div class="box-header with-border">
+              		<i class="fa fa-headphones"></i>
+			  		<h3 class="box-title">Upload patch</h3>
+            	</div>
+            	<div class="box-body">
+		
 		<?php
 		if (checkPatchAmount()) {
 			?>
-			<div id="header">
-				<h1>Upload a patch</h1>
-				<h3>Patch Server: <?php echo $site["server"]["host"]."patch/".$_SESSION["username"]."/"; ?></h3>
-			</div>
+			<h1>Upload a patch</h1>
+			<h3>Patch Server: <?php echo $site["server"]["host"]."patch/".$_SESSION["username"]."/"; ?></h3>
+			
 			
 			
 			<script type="text/javascript">
@@ -39,42 +46,34 @@
 				document.getElementById("uploadProgess").value = 0;
 			}
 			function errorHandler(event){
-				$("#status").html("<span class=\"statusMsgErr\">Upload Failed</span>");
+				$("#status").html("<div class=\"callout callout-danger\"><h3>Upload Failed</h3></div>");
 			}
 			function abortHandler(event){
-				$("#status").html("<span class=\"statusMsgErr\">Upload Cancelled</span>");
+				$("#status").html("<div class=\"callout callout-danger\"><h3>Upload Cancelled</h3></div>");
 			}
 			</script>
 			
-			<style type="text/css">
-			
-			</style>
-			
-			<div id="uploadArea">
-				<p>You can upload <?php
+			<p id="status"></p>
+			<p id="uploaded"></p>
+			<p>You can upload <?php
 					if (($_SESSION["allowedPatchInt"]-$_SESSION["usedPatchInt"]) == 1) {
 						echo "1 more patch";
 					} else {
 						echo ($_SESSION["allowedPatchInt"]-$_SESSION["usedPatchInt"]) . " more patches";
 					}
 					?></p>
-				<p id="uploadSteps">
-					Upload an <strong>individual</strong> patch<br />
-					1) Archive the patch in .zip format<br />
-					2) Press upload patch and select the .zip file you just made<br />
-					3) Your patch should upload successfully and be usable
-				</p>
-				
-				
+					<p></p>Upload an <strong>individual</strong> patch</p>
+					<ol>
+					<li>Archive the patch in .zip format</li>
+					<li>Press upload patch and select the .zip file you just made</li>
+					<li>>Your patch should upload successfully and be usable</li>
 				<form id="beta_uploader" method="post" enctype="multipart/form-data">
 					<input type="file" name="theFile" id="theFile" /><br /><br />
-					<input type="button" value="Upload Patch" class="button" onclick="uploadFile()"><br /><br />
+					<input type="button" value="Upload Patch" class="btn btn-info" onclick="uploadFile()"><br /><br />
 					<progress id="uploadProgess" value="0" max="100" style="width:25%"></progress>
 				</form>
 				
-				<p id="status"></p>
-				<p id="uploaded"></p>
-			</div>
+
 			<?php
 		} else {
 			?>
@@ -86,6 +85,8 @@
 			<?php
 		}
 		?>
-	</section>
-</div>
-<?php include("foot.php"); ?>
+				</div>
+			</div>
+		</section>
+	</div>
+<?php include('foot.php'); ?>		
