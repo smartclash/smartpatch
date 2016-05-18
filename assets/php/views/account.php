@@ -50,7 +50,7 @@
               <i class="fa fa-users"></i>
 			  <h3 class="box-title">Account information</h3>
             </div>
-            <div class="box-body">
+            <div class="box-body" id="accInfo">
 			<?php
 				echo "<p>Username: <strong>" . $_SESSION["username"] . "</strong></p>";
 				echo "<p>Email: <strong>" . $_SESSION["email"] . "</strong> <a onclick='changeEmail()' href='#' class=''>(Change)</a></p>";
