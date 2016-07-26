@@ -75,12 +75,12 @@ function readPatchFolder($dir) {
 			<tbody>';
 		foreach($scan as $patch){
 			if($patch != '.' && $patch != '..'){
-				$patchReturn .= "<tr><td>" . $patch . "</td><td><a href='assets/php/scripts/delete.php?patch=$patch' class='white-link'>Delete</a></td></tr>";
+				$patchReturn .= "<tr><td>" . $patch . "</td><td><a href='assets/php/scripts/delete.php?patch=$patch'><div class='btn btn-danger'>Delete</div></a></td></tr>";
 			}
 		}
 		$patchReturn .= '
 			</tbody>
-		</table><br /><br /><div class="callout callout-success"><h3>Patch Amount: ' . $patches . '</h3></div>';
+		</table>';
 		return $patchReturn;
 	} else {
 		return False;
