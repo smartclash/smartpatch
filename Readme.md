@@ -23,3 +23,7 @@ To edit the informations, just edit the `config.php` from
 ##Developers
 
 @smartclash   -   Karansanjeev - https://github.com/smartclash/smartpatch/
+
+#Donation
+
+<a href='https://ko-fi.com/A422ACK' target='_blank'><img height='32' style='border:0px;height:32px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=b' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> 
