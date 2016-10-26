@@ -27,10 +27,13 @@ I was a fan of GPL, but due to CC'S high popularity, i am using CC.
 
 xXAlphaManXx - Hacker, blogger and a coder.
 
-*** Email *** - alpha@smarthacksinc.com
-*** WEB   *** - [Smart Hacks](https://smarthacksinc.com/)
-*** SKYPE *** - karansanjeev
-*** DISCORD *** - xXAlphaManXx#6439
+***Email*** - alpha@smarthacksinc.com
+
+***WEB*** - [Smart Hacks](https://smarthacksinc.com/)
+
+***SKYPE*** - karansanjeev
+
+***DISCORD*** - xXAlphaManXx#6439
 
 # DONATE 
 
