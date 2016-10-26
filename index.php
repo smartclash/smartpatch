@@ -26,16 +26,9 @@ define('ACCESS','Legal',TRUE);
  */
 
 require __DIR__ . "/php/BootStraper.includes.php";
-?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title><?php echo $serverName ?></title>
-    <meta name="description" content="<?php echo $description; ?>">
-</head>
-<body>
-<h1><?php $echo->logThis("Hello World", "INFO",3,TRUE); ?></h1>
-</body>
-</html>
+include __DIR__ . "/php/site/view/templates/Header.php";
+include __DIR__ . "/php/site/view/" . $page . ".php";
+include __DIR__ . "/php/site/view/templates/Footer.php";
+
+?>

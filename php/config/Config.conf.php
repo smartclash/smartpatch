@@ -14,6 +14,7 @@
  * Main configuration
  */
 
+$domain = 'http://dev.smartclashcoc.com'; // Never include the trailing slahs (/) at the end.
 $serverName         = 'Smart Patch'; // Name of your server
 $description        = 'Host your patches for free instead of paying for a paid host.'; // Description about your patching server
 $shortDescription   = 'Host patches for free'; // A short description to show on pages
@@ -23,7 +24,7 @@ $shortDescription   = 'Host patches for free'; // A short description to show on
  *
  * USE ONLY MYSQL FOR THIS SCRIPT. NOTHING ELSE IS SUPPORTED.
  */
-define('DB_HOST','192.168.1.1',FALSE); //Host name
+define('DB_HOST','192.168.1.1',FALSE); //Host name 
 define('DB_USER','root',FALSE); //User name
 define('DB_PASS','',FALSE); //Password for that user
 define('DB_NAME','smartpatch',FALSE); // and the name of the database
