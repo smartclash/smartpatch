@@ -18,23 +18,19 @@
 require __DIR__ . "/config/Config.conf.php";
 
 /*
- * ALL THE CLASSES ARE INCLUDED AT FIRST
- */
-require __DIR__ . "/class/LoginHandler.class.php";
-require __DIR__ . "/class/MessageHandler.class.php";
-require __DIR__ . "/class/RegisterHandler.php";
-
-/*
  * ALL OTHER LIBRARIES ARE LOADED AFTERWARDS
  */
 
 // Libraries .....
 
 /*
- * ALL THE CLASSES ARE DECLARED AND GET'S ASSIGNED WITH
- * A GLOBAL VARIABLE TO MAKE IT USED EVERYWHERE
+ * PRELOAD CLASSES THAT ARE MOST REQUIRED EVERY WHERE
  */
 
-$login      = new LoginHandler();
-$echo       = new MessageHandler($text, $type);
-$register   = new RegisterHandler();
+require __DIR__ . "/class/MessageHandler.class.php";
+
+/*
+ * ASSIGN VARIABLES TO THE CLASSES INSTALLED HERE
+ */
+
+$echo = new Logger();

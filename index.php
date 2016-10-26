@@ -17,6 +17,15 @@
  * @license GPLv3.0
  */
 
+define('ACCESS','Legal',TRUE);
+
+/*
+ * INCLUDE ALL REQUIRED FILES INTO THE MAIN INDEX PAGE.
+ * THE LESSER THE CODE, THE FASTER THE COMPILING OF
+ * PHP. SO, ALL ARE INCLUDED IN THE BOOTSTRAPER.PHP
+ */
+
+require __DIR__ . "/php/BootStraper.includes.php";
 ?>
 
 <!DOCTYPE html>
@@ -27,6 +36,6 @@
     <meta name="description" content="<?php echo $description; ?>">
 </head>
 <body>
-
+<h1><?php $echo->logThis("Hello World", "INFO",3,TRUE); ?></h1>
 </body>
 </html>

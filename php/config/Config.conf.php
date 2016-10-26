@@ -14,9 +14,9 @@
  * Main configuration
  */
 
-$serverName         = ''; // Name of your server
-$description        = ''; // Description about your patching server
-$shortDescription   = ''; // A short description to show on pages
+$serverName         = 'Smart Patch'; // Name of your server
+$description        = 'Host your patches for free instead of paying for a paid host.'; // Description about your patching server
+$shortDescription   = 'Host patches for free'; // A short description to show on pages
 
 /*
  * DATABASE
