@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'hostname' => $this->config->item('DB_HOST'),
+	'username' => $this->config->item('DB_USER'),
+	'password' => $this->config->item('DB_PASS'),
+	'database' => $this->config->item('DB_NAME'),
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
