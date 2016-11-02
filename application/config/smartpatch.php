@@ -1,5 +1,5 @@
 <?php
-
+//
 /*
 | -------------------------------------------------------------------
 |  Connection to database
@@ -33,6 +33,22 @@ $config['title']        = 'Smart Patch';
 $config['keywords']     = 'patching, UCS, GCS, private game patching, patching UCS';
 $config['description']  = 'Upload your patches to Smart Patch. So easy that you require only five minutes of your time';
 $config['owner']        = 'xXAlphaManXx :: Smart Hacks';
+$config['domain']       = 'http://localhost'; // Never include trailing slash at the end
+
+/*
+| -------------------------------------------------------------------
+|  Connection to database
+| -------------------------------------------------------------------
+| Prototype:
+|
+|   $config["clientid"]     = '168165876058-vecsf1e40ro22htmg4jkhsf40pnafq0d.apps.googleusercontent.com';
+|   $config["clientsec"]    = '897krR89ydcZfdj5h4VBXI3S';
+|   $config["serverkey"]    = 'AIzaSyBenly-luPdLWt_2H8vFYCMI_MPP6hugwE';
+*/
+
+$config["clientid"]     = '168165876058-vecsf1e40ro22htmg4jkhsf40pnafq0d.apps.googleusercontent.com';
+$config["clientsec"]    = '897krR89ydcZfdj5h4VBXI3S';
+$config["serverkey"]    = 'AIzaSyBenly-luPdLWt_2H8vFYCMI_MPP6hugwE';
 
 /*
 | -------------------------------------------------------------------
