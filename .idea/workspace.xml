@@ -2,10 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0077e80-c00f-4f01-a52b-bc13b0705820" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/.github/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/UPGRADING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/examples/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/examples/batch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/examples/idtoken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/examples/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/examples/large-file-upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/examples/multi-api.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/examples/service-account.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/examples/simple-file-upload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/examples/simple-query.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/examples/styles/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/examples/templates/base.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/examples/url-shortener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/AccessToken/Revoke.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/AccessToken/Verify.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/AuthHandler/AuthHandlerFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/AuthHandler/Guzzle5AuthHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/AuthHandler/Guzzle6AuthHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Collection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Http/Batch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Http/MediaFileUpload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Http/REST.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Service.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Service/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Service/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Service/Resource.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Task/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Task/Retryable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Task/Runner.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Utils/UriTemplate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/style/ruleset.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/BaseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/AccessToken/RevokeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/AccessToken/VerifyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/ClientTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/Http/BatchTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/Http/MediaFileUploadTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/Http/RESTTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/ModelTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/Service/AdSenseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/Service/PagespeedonlineTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/Service/PlusTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/Service/ResourceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/Service/TasksTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/Service/UrlshortenerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/Service/YouTubeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/ServiceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/Task/RunnerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/Google/Utils/UriTemplateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/clearToken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/config/test.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/examples/batchTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/examples/idTokenTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/examples/indexTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/examples/largeFileUploadTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/examples/multiApiTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/examples/serviceAccountTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/examples/simpleFileUploadTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/examples/simpleQueryTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/libraries/google-api-php-client-master/tests/examples/urlShortenerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/models/Database.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/smartpatch.php" afterPath="$PROJECT_DIR$/application/config/smartpatch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/Database.php" afterPath="$PROJECT_DIR$/application/models/Database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Main.php" afterPath="$PROJECT_DIR$/application/controllers/Main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <ignored path="smartpatch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +110,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Database.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/models/Database.php">
+      <file leaf-file-name="Main.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+            <state relative-caret-position="391">
+              <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -48,6 +133,11 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Alpha Man &lt;smartclashcoc@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -58,6 +148,10 @@
         <option value="$PROJECT_DIR$/composer.lock" />
         <option value="$PROJECT_DIR$/application/config/smartpatch.php" />
         <option value="$PROJECT_DIR$/application/models/Database.php" />
+        <option value="$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/autoload.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Main.php" />
       </list>
     </option>
   </component>
@@ -102,6 +196,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,7 +243,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -166,11 +261,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="google-api-php-client-master" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -188,65 +279,18 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="google-api-php-client-master" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Google" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smartpatch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="smartpatch" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="google-api-php-client-master" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Google" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Service" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
-    <property name="settings.editor.splitter.proportion" value="0.24583742" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+    <property name="settings.editor.splitter.proportion" value="0.24168298" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -312,18 +356,27 @@
       <option name="presentableId" value="Default" />
       <updated>1478006455415</updated>
       <workItem from="1478006457068" duration="4336000" />
-      <workItem from="1478102947893" duration="2800000" />
+      <workItem from="1478102947893" duration="2896000" />
+      <workItem from="1478263607155" duration="4700000" />
     </task>
+    <task id="LOCAL-00001" summary="I am gonna complete the OAuth.">
+      <created>1478105822575</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1478105822575</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7136000" />
+    <option name="totallyTimeSpent" value="11932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19667171" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19969743" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -372,6 +425,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="I am gonna complete the OAuth." />
+    <option name="LAST_COMMIT_MESSAGE" value="I am gonna complete the OAuth." />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -385,18 +442,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+    <entry file="file://$PROJECT_DIR$/application/config/smartpatch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="285" column="0" selection-start-line="276" selection-start-column="0" selection-end-line="285" selection-end-column="0" />
+        <state relative-caret-position="646">
+          <caret line="38" column="69" selection-start-line="38" selection-start-column="69" selection-end-line="38" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+    <entry file="file://$PROJECT_DIR$/application/models/Database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="90" selection-end-column="2" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -431,22 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2908">
-          <caret line="117" column="0" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/AuthHandler/AuthHandlerFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -459,7 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-189">
           <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -467,6 +507,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1245">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -479,10 +527,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/Database.php">
+    <entry file="file://$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/Client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        <state relative-caret-position="549">
+          <caret line="411" column="18" selection-start-line="411" selection-start-column="18" selection-end-line="411" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/google-api-php-client-master/src/Google/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="138" column="35" selection-start-line="138" selection-start-column="35" selection-end-line="138" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="90" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/google/apiclient-services/src/Google/Service/Plus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
           <folding />
         </state>
       </provider>
