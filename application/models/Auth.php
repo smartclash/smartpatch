@@ -11,9 +11,22 @@
  * @repo https://github.com/smarthacks/
  *
  */
-defined('ACCESS') OR exit('DIRECT SCRIPT ACCESS NOT ALLOWED');
+defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Auth
-{
+class Auth extends CI_Model {
 
+    public function loggedIn ()
+    {
+        if(isset($_SESSION['loggedIn'])
+            && $_SESSION['loggedIn'] === true) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public function registerUser ($data)
+    {
+        $this->db->insert('users', $data);
+    }
 }

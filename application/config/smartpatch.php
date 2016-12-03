@@ -37,21 +37,6 @@ $config['domain']       = 'http://localhost'; // Never include trailing slash at
 
 /*
 | -------------------------------------------------------------------
-|  Connection to database
-| -------------------------------------------------------------------
-| Prototype:
-|
-|   $config["clientid"]     = '168165876058-vecsf1e40ro22htmg4jkhsf40pnafq0d.apps.googleusercontent.com';
-|   $config["clientsec"]    = '897krR89ydcZfdj5h4VBXI3S';
-|   $config["serverkey"]    = 'AIzaSyBenly-luPdLWt_2H8vFYCMI_MPP6hugwE';
-*/
-
-$config["clientid"]     = '168165876058-vecsf1e40ro22htmg4jkhsf40pnafq0d.apps.googleusercontent.com';
-$config["clientsec"]    = '897krR89ydcZfdj5h4VBXI3S';
-$config["serverkey"]    = 'AIzaSyBenly-luPdLWt_2H8vFYCMI_MPP6hugwE';
-
-/*
-| -------------------------------------------------------------------
 |  SEO settings (Required)
 | -------------------------------------------------------------------
 | Prototype:
