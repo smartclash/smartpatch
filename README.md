@@ -10,5 +10,5 @@ An awesome, simple but really fast patching tool aims to provide a robust easine
 
 ## Meet developers
 
-<iframe src="https://discordapp.com/widget?id=254863566136541186&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+[![](https://discordapp.com/api/guilds/254863566136541186/embed.png?style=banner4)](https://discord.gg/PzphEzk)
 
