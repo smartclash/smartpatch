@@ -28,18 +28,7 @@ class Auth extends CI_Model {
     public function registerUser ($data)
     {
         if( $this->db->insert('users', $data) ) {
-
-            $_SESSION['username'] = $data['username'];
-            $_SESSION['email']    = $data['email'];
-            $_SESSION['acctype']  = $data['acctype'];
-            $_SESSION['ip']       = $data['ip'];
-            $_SESSION['country']  = $data['country'];
-            $_SESSION['city']     = $data['city'];
-            $_SESSION['state']    = $data['state'];
-            $_SESSION['loggedIn'] = true;
-
-            $this->load->model('PageManager', 'director');
-            $this->director->pageDirector();
+            $this->registerSession($data);
         } else {
             $this->load->view('auth/register', array('error' => 'Oops, something wrong has happened'));
         }
@@ -59,5 +48,40 @@ class Auth extends CI_Model {
         } else {
             $this->registerUser($json);
         }
+    }
+
+    public function loginUser($js)
+    {
+
+        $sql = "SELECT * FROM users WHERE username='" . $js['username'] . "'";
+        $query = $this->db->query($sql);
+        $rows = $query->num_rows();
+        $res = $query->result();
+
+        if($rows === 1){
+            if(password_verify($js['password'], $res->password)) {
+                $this->registerSession($js);
+            } else {
+                $this->load->view('auth/login', array('error' => 'Oops, the password is wrong'));
+            }
+        } else {
+            $this->load->view('auth/login', array('error' => 'Oops, the username is not available with our records'));
+        }
+
+    }
+
+    public function registerSession($data)
+    {
+        $_SESSION['username'] = $data['username'];
+        $_SESSION['email']    = $data['email'];
+        $_SESSION['acctype']  = $data['acctype'];
+        $_SESSION['ip']       = $data['ip'];
+        $_SESSION['country']  = $data['country'];
+        $_SESSION['city']     = $data['city'];
+        $_SESSION['state']    = $data['state'];
+        $_SESSION['loggedIn'] = true;
+
+        $this->load->model('PageManager', 'director');
+        $this->director->pageDirector();
     }
 }
